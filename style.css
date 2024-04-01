@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*Imagén inicial*/
+header {
+    text-align: center;
+    border: none; /* Esto quita el borde */
+    width: 100%; /*Ancho del contenedor */
+}
+#headerBanner {
+    padding-bottom: 20px; /*Espacio generado entre el banner y los contenedores*/
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%; /*Ancho del contenedor */
+    display: block; /* Elimina cualquier espacio extra alrededor de la imagen */
+}
+/*Display de img*/
+#carrusel {
+    display: flex; /* Alinea las imágenes horizontalmente */
+    overflow: hidden; /* Oculta las imágenes que no caben en el contenedor */
+    padding-bottom: 25px;
+}
+#carrusel img {
+    width: 200px; /* Ajusta el ancho de las imágenes */
+    height: 200px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Asegura que las imágenes se redimensionen correctamente */
+    width: 100%; /* Hace que cada imagen ocupe todo el ancho del contenedor */
+    margin-right: 20px; /* Agrega una separación entre las imágenes */
+}
+#carrusel img {
+    transition: transform 0.5s ease-out; /*Agrega una transición suave*/
+}
+/*Definición del negocio*/
+#contenedor {
+    /*Tamaño*/
+    width: 100%; /*Ancho del contenedor */
+    /*Estilo*/
+    background-color: #205094; /* Color de fondo gris */
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0px;
+    /*Texto*/
+    color: #ffffff; /*Color del texto */
+    text-align: center; /*Alineación del texto*/
+    /*Bordes*/
+    border-top: 10px solid #062044;
+    border-bottom: 10px solid #062044;
+    /*centrado*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+/* Contenedor cuerpo de página */
+#contenedor_central {
+    display:flex; /* Esto convierte el contenedor central en un contenedor flex */
+    justify-content: space-between; /* Esto coloca un espacio igual entre los elementos hijos */
+}
+/* Contenedor de imágenes */
+#contenedor_de_imagenes {
+    width: 50%;
+    margin: 50px; /* Ajusta el margen a 50px para compensar el borde de la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+}
+/* Imagen */
+#promocionales {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 70px;
+    border: 5px solid #25364E;
+}
+/* Contenedor de listas */
+#contenedor_de_listas {
+    width: 50%; /* Ajusta el ancho al 50% del contenedor padre */
+    margin: 50px; /* Añade un margin de 50px a todos los lados */
+    margin-left: 0px;
+    margin-top: 0px;
+}
+/*Listas*/
+#elemento_de_lista {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    border: 5px solid #062044; /* Añade un borde de 5px de color #25364E */
+    background-color: #a8b9d0;
+    padding: 15px; /* Añade un padding de 5px a todos los lados */
+    text-align: center;
+    object-fit: cover;
+}
+/* footer*/
+footer{
+    background-color: #062044;
+    color: white;
+    object-fit: cover;
+}  
+div h2{
+    background-color: #205094;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+/*Contacto*/
+#logoreferencia{
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+#contendorcontacto{
+    display: flex;
+    align-items: center;
+}
+a:visited {
+    color: white; /* Cambia 'white' al color que desees */
+}
+a{
+    text-decoration: none;
+}
+a[href^="mailto:"] {
+    color: white; /* Cambia 'white' al color que desees */
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between; 
+}
+footer {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 30px;
+}
+#PrimeraParte{
+    margin-left: 30px;
+}
+#PrimeraParte, #SegundaParte {
+    margin-right: 20px;
+}
+#TerceraParte {
+    margin-right: 0;
+}
+#PrimeraParte, #SegundaParte, #TerceraParte {
+    padding: 10px;
+}
