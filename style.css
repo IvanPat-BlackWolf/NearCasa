@@ -116,6 +116,7 @@ div h2{
 #contendorcontacto{
     display: flex;
     align-items: center;
+    color: white;
 }
 a:visited {
     color: white; /* Cambia 'white' al color que desees */
