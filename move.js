@@ -17,3 +17,9 @@ document.getElementById('efectivo').addEventListener('mouseover', function() {
         confetti.stop();
     }, 8000);
 }); 
+window.onload = function() {
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+        alert("Lo sentimos, esta página solo está disponible para PC.");
+    }
+};
